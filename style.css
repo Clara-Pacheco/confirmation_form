@@ -1,0 +1,61 @@
+body {
+  font-family: 'Amiko', sans-serif;
+  background-color: #C7C6C6;
+}
+
+.container {
+  width: 400px;
+  margin: 100px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:#5DC678;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+svg {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 8px;
+  color: white;
+  stroke-width: 5;
+}
+
+.container .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+  color:#3e3e3e;
+  margin-bottom: 25px;
+}
+
+.container .text {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #3e3e3e;
+}
+
+.container input[type="submit"] {
+  width: 300px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
